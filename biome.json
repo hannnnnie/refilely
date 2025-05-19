@@ -1,0 +1,17 @@
+{
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 80
+  },
+  "lint": {
+    "enabled": true,
+    "rules": {
+      "noUnusedVariables": "error",
+      "noImplicitAny": "error",
+      "noExplicitAny": "error",
+      "noImplicitReturns": "error"
+    }
+  }
+}

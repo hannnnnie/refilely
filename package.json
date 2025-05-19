@@ -2,6 +2,11 @@
 	"dependencies": {
 		"@antfu/ni": "^24.3.0",
 		"@google-cloud/vision": "^5.1.0",
-		"dotenv": "^16.5.0"
+		"dotenv": "^16.5.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
 	}
 }

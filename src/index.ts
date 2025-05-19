@@ -8,13 +8,15 @@ dotenv.config();
 
 // 認証
 const client = new vision.ImageAnnotatorClient({
-  keyFilename: process.env.CREDENTIALE_PATH, // さっきDLしたキー
+  keyFilename: process.env.CREDENTIALE_PATH,
 });
 
 // OCR対象のPDFファイル
-const fileName = './receipt.pdf';
+const fileName = 'C:\\Users\\chiha\\Downloads\\20250406-800-スターバックス.pdf';
 
 async function runOCR() {
+  console.log(`OCRを実行します...${process.env.CREDENTIALE_PATH}`);
+
   const input = {
     inputConfig: {
       mimeType: 'application/pdf',
